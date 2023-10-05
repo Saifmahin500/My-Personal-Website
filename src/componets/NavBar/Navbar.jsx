@@ -5,21 +5,21 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
     return (
         <div>
-            <nav className="mx-auto w-full max-w-screen-xl rounded-xl py-2 px-4 text-white lg:px-8 lg:py-4">
+            <nav className="mx-auto  w-full max-w-screen-xl py-2 px-4 text-white lg:px-8 lg:py-2">
   <div>
     <div className="container mx-auto flex items-center justify-between text-gray-900">
      <Link to="/"><a
         href="#"
-        className="mr-4 block cursor-pointer py-1.5 font-sans  font-bold text-3xl leading-normal text-inherit antialiased"
+        className="mr-4 block cursor-pointer py- font-sans  font-bold text-5xl leading-normal text-inherit antialiased"
       >
-        <span>𝕾𝖆𝖎𝖋 𝕸𝖆𝖍𝖎𝖓</span>
+        <span className="text-white">𝕾𝖆𝖎𝖋 𝕸𝖆𝖍𝖎𝖓</span>
       </a></Link>
       <ul className="hidden items-center gap-6 lg:flex">
         <Link to='/'>
         <button className="btn btn-outline btn-error">
         <li className="block p-1 font-sans  text-sm font-bold leading-normal text-inherit antialiased">
-          <a className="flex items-center  gap-2" href="#">
-           <FaHome></FaHome> Home
+          <a className="flex items-center text-white gap-2" href="#">
+           <FaHome></FaHome> <span>Home</span>
           </a>
         </li>
         </button>
@@ -27,7 +27,7 @@ const Navbar = () => {
         <Link to='/about'>
         <button className="btn btn-outline btn-error">
         <li className="block p-1 font-sans text-sm font-bold leading-normal text-inherit antialiased">
-          <a className="flex items-center  gap-2" href="#">
+          <a className="flex items-center text-white gap-2" href="#">
            <FaPersonBooth></FaPersonBooth> About
           </a>
         </li>
@@ -36,7 +36,7 @@ const Navbar = () => {
         <Link to='/resume'>
         <button className="btn btn-outline btn-error">
         <li className="block p-1 font-sans text-sm font-bold leading-normal text-inherit antialiased">
-          <a className="flex items-center gap-2" href="#">
+          <a className="flex items-center text-white gap-2" href="#">
            <FaNewspaper></FaNewspaper> Resume
           </a>
         </li>
@@ -45,7 +45,7 @@ const Navbar = () => {
         <Link to='/work'>
         <button className="btn btn-outline btn-error">
         <li className="block p-1 font-sans text-sm font-bold leading-normal text-inherit antialiased">
-          <a className="flex items-center  gap-2" href="#">
+          <a className="flex items-center text-white gap-2" href="#">
           <FaWalking></FaWalking> Work
           </a>
         </li>
@@ -54,7 +54,7 @@ const Navbar = () => {
         <Link to='/contract'>
         <button className="btn btn-outline btn-error  gap-2">
         <li className="block p-1 font-sans text-sm font-bold leading-normal text-inherit antialiased">
-          <a className="flex items-center" href="#">
+          <a className="flex items-center text-white" href="#">
            <FaPhone></FaPhone> contract
           </a>
         </li>
