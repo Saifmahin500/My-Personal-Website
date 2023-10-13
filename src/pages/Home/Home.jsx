@@ -1,4 +1,4 @@
-import { FaFacebook, FaInstagram, FaTwitter, } from 'react-icons/fa';
+import { FaDownload, FaFacebook, FaInstagram, FaTwitter, } from 'react-icons/fa';
 
 
 const Home = () => {
@@ -20,9 +20,10 @@ const Home = () => {
   <div className="flex justify-center text-white text-3xl gap-7 p-6 pt-2">
     <p><FaFacebook></FaFacebook></p>
     <p><FaInstagram></FaInstagram></p>
-    <p><FaTwitter></FaTwitter></p>
-    
-    
+    <p><FaTwitter></FaTwitter></p>   
+  </div>
+  <div className="flex justify-center ">
+    <button className='btn btn-outline btn-info'>Download CV <FaDownload></FaDownload></button>
   </div>
 </div>
         </div>
